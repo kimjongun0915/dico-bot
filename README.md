@@ -42,6 +42,7 @@ Allows users to explore colleges and their respective departments. Users can als
 #### 설명
 - 이 명령어는 봇에 등록된 모든 명령어를 보여줍니다.
 - 명령어의 이름과 그 설명이 포함된 임베드 메시지를 출력합니다.
+!(https://github.com/kimjongun0915/dico-bot/tree/main/구현화면/도움말.png)
 
 ### 명령어: `/등록금`
 
