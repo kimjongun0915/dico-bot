@@ -33,6 +33,11 @@ Allows users to explore colleges and their respective departments. Users can als
 
 ---
 
+### 명령어: `@bot.slash_command`
+- 이 명령어를 통해 사용자는 `/`로 시작하는 명령어를 Discord 채팅에서 호출할 수 있습니다.
+![image](구현화면/슬래쉬커맨드.png)
+- Discord 채팅창에서 `/`를 입력했을 때 해당 봇이 지원하는 모든 슬래시 명령어가 자동으로 표시됩니다.
+
 ### 명령어: `/도움말`
 
 ```python
@@ -41,8 +46,8 @@ Allows users to explore colleges and their respective departments. Users can als
 
 #### 설명
 - 이 명령어는 봇에 등록된 모든 명령어를 보여줍니다.
-- 명령어의 이름과 그 설명이 포함된 임베드 메시지를 출력합니다.
 ![image](구현화면/도움말.png)
+- 명령어의 이름과 그 설명이 포함된 임베드 메시지를 출력합니다.
 
 ### 명령어: `/등록금`
 
@@ -52,6 +57,8 @@ Allows users to explore colleges and their respective departments. Users can als
 
 #### 설명
 - 학과별 등록금 정보를 페이지별로 보여줍니다.
+![image](구현화면/등록금1.png)
+![image](구현화면/등록금2.png)
 - "이전", "다음" 버튼으로 페이지를 이동할 수 있습니다.
 - 버튼 정의 및 콜백 연결
    - `next_page_callback`: 다음 페이지를 표시
@@ -67,6 +74,7 @@ Allows users to explore colleges and their respective departments. Users can als
 
 #### 설명
 - 서울과학기술대학교 캠퍼스 지도를 이미지로 보여줍니다.
+![image](구현화면/캠퍼스지도.png)
 - `nextcord.File`: 이미지를 Discord 메시지에 첨부할 때 사용됩니다.
 
 ### 명령어: `/학점비율`
@@ -77,6 +85,7 @@ Allows users to explore colleges and their respective departments. Users can als
 
 #### 설명
 - 2025학년 학점 비율에 대한 정보를 보여줍니다.
+![image](구현화면/학점비율.png)
 - 상대평가 및 절대평가 기준과 주의사항을 임베드 메시지로 출력합니다.
 - 임베드 메시지 생성: 학점 비율 정보는 `Embed`에 추가.
 - 상대평가/영어수 필드: 가독성을 위해 각각의 기준을 필드로 분리.
@@ -89,6 +98,8 @@ Allows users to explore colleges and their respective departments. Users can als
 
 #### 설명
 - 서울과학기술대학교의 분과별 동아리 정보를 제공합니다.
+![image](구현화면/분과정보1.png)
+![image](구현화면/분과정보2.png)
 - 각 분과에 포함된 동아리의 이름, 위치, 그리고 목적을 임베드 메시지로 출력합니다.
 - "이전 분과", "다음 분과" 버튼을 통해 페이지를 이동하며 정보를 확인할 수 있습니다.
 - 페이지 구조화
@@ -108,6 +119,8 @@ Allows users to explore colleges and their respective departments. Users can als
 ```
 
 #### 설명
+![image](구현화면/공지사항1.png)
+![image](구현화면/공지사항2.png)
 - 공지사항 크롤링
   - `fetch_notices()` 함수에서 공지사항 데이터(제목, 링크, 부서, 작성일)를 가져옵니다.
   - 최대 15개의 공지사항만 표시합니다.
@@ -127,15 +140,17 @@ Allows users to explore colleges and their respective departments. Users can als
 ```
 
 #### 설명
-
+![image](구현화면/단과대학 정보1.png)
 - 단과대학 선택
   - 사용자가 선택 메뉴에서 단과대학을 선택하면 해당 단과대학의 학과 목록이 표시됩니다.
+![image](구현화면/단과대학 정보2.png)
 - 학과 선택
   - 학과 선택 시, 해당 학과의 교육 연계도 이미지가 전송됩니다.
   - `os.path.exists()`로 이미지 파일의 존재 여부를 확인합니다.
 - 선택 메뉴
   - `Select`: 단과대학 및 학과 선택을 위한 드롭다운 메뉴를 생성.
   - `callback`: 사용자가 선택한 항목에 따라 동작을 정의.
+![image](구현화면/단과대학 정보3.png)
 - 이미지 전송
   - 학과별로 사전에 정의된 이미지 경로(`collage_data`)를 기반으로 이미지를 전송합니다.
 
