@@ -64,7 +64,7 @@ Allows users to explore colleges and their respective departments. Users can als
 @bot.slash_command(name="캠퍼스지도", description="서울과학기술대학교의 캠퍼스 지도를 보여줍니다.")
 ```
 
-####설명
+#### 설명
 - 서울과학기술대학교 캠퍼스 지도를 이미지로 보여줍니다.
 - `nextcord.File`: 이미지를 Discord 메시지에 첨부할 때 사용됩니다.
 
@@ -74,7 +74,7 @@ Allows users to explore colleges and their respective departments. Users can als
 @bot.slash_command(name="학점비율", description="2025학년 학점 비율을 보여줍니다.")
 ```
 
-####설명
+#### 설명
 - 2025학년 학점 비율에 대한 정보를 보여줍니다.
 - 상대평가 및 절대평가 기준과 주의사항을 임베드 메시지로 출력합니다.
 - 임베드 메시지 생성: 학점 비율 정보는 `Embed`에 추가.
@@ -86,7 +86,7 @@ Allows users to explore colleges and their respective departments. Users can als
 @bot.slash_command(name="분과정보", description="분과별 동아리 정보를 보여줍니다.")
 ```
 
-####설명
+#### 설명
 - 서울과학기술대학교의 분과별 동아리 정보를 제공합니다.
 - 각 분과에 포함된 동아리의 이름, 위치, 그리고 목적을 임베드 메시지로 출력합니다.
 - "이전 분과", "다음 분과" 버튼을 통해 페이지를 이동하며 정보를 확인할 수 있습니다.
@@ -106,7 +106,7 @@ Allows users to explore colleges and their respective departments. Users can als
 @bot.slash_command(name="공지사항", description="학교의 최신 공지사항을 보여줍니다.")
 ```
 
-####설명
+#### 설명
 - 공지사항 크롤링
   - `fetch_notices()` 함수에서 공지사항 데이터(제목, 링크, 부서, 작성일)를 가져옵니다.
   - 최대 15개의 공지사항만 표시합니다.
@@ -125,7 +125,7 @@ Allows users to explore colleges and their respective departments. Users can als
 @bot.slash_command(name="단과대학", description="단과대학과 학과 정보를 보여줍니다.")
 ```
 
-####설명
+#### 설명
 
 - 단과대학 선택
   - 사용자가 선택 메뉴에서 단과대학을 선택하면 해당 단과대학의 학과 목록이 표시됩니다.
