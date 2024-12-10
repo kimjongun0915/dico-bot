@@ -182,36 +182,32 @@
 ### 봇 실행 방법
 
 1. **Discord Developer Portal에서 봇 생성**
-   - Visit the [Discord Developer Portal](https://discord.com/developers/applications).
-   - Click on "New Application" and provide a name for your bot.
-   - Navigate to the "Bot" tab and click "Add Bot" to create a bot user.
+   - [Discord Developer Portal](https://discord.com/developers/applications)에 접속합니다.
+   - "New Application"을 클릭하고 봇의 이름을 입력하여 새 애플리케이션을 생성합니다.
+   - 생성된 애플리케이션의 "Bot" 탭으로 이동하여 "Add Bot" 버튼을 클릭하여 봇 유저를 만듭니다.
 
-2. **Get the Bot Token**
-   - Copy the bot token from the "Bot" tab.
-   - Replace `"YOUR_BOT_TOKEN"` in the `bot.run()` line of the code with the copied token.
+2. **봇 토큰 가져오기**
+   - "Bot" 탭에서 봇 토큰을 복사합니다.
+   - 코드의 bot.run() 줄에 있는 "YOUR_BOT_TOKEN"을 복사한 토큰으로 교체합니다.
 
-3. **Set Bot Permissions**
-   - Go to the "OAuth2" tab in the Discord Developer Portal.
-   - Select "URL Generator" and check the following permissions under the "Scopes" and "Bot Permissions" sections:
+3. **봇 권한 설정**
+   - Discord Developer Portal의 "OAuth2" 탭으로 이동합니다.
+   - "URL Generator"를 선택한 후 아래 권한들을 선택합니다:
      - **Scopes**: `bot`
-     - **Bot Permissions**: `Send Messages`, `Embed Links`, `Read Message History`, and any other permissions your bot needs.
-   - Copy the generated OAuth2 URL.
+     - **Bot Permissions**: `Send Messages`, `Embed Links`, `Read Message History` 및 봇이 필요로 하는 기타 권한.
+   - 생성된 OAuth2 URL을 복사합니다.
 
-4. **Invite the Bot to Your Server**
-   - Open the copied OAuth2 URL in your web browser.
-   - Select your Discord server and invite the bot.
+4. **봇을 서버에 초대**
+   - 복사한 OAuth2 URL을 웹 브라우저에 열고 실행합니다.
+   - 디스코드 서버를 선택한 후 봇을 초대합니다.
 
 5. **Run the Bot**
-   - Open a terminal and navigate to the folder containing `seoultech.py`.
-   - Run the following command to start the bot:
+   - 터미널을 열고 `seoultech.py` 파일이 있는 폴더로 이동합니다.
+   - 다음 파일를 실행하여 봇을 시작합니다:
      ```bash
-     python seoultech.py
+     seoultech.py
      ```
-   - The bot should now be online and ready to use.
-
----
-
-Now your bot should be set up and running on your Discord server. If you encounter any issues, feel free to ask for help!
+   - 이제 봇이 온라인 상태가 되어 사용할 준비가 완료됩니다.
 
 ---
 
