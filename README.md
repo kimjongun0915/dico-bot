@@ -67,12 +67,37 @@ Allows users to explore colleges and their respective departments. Users can als
 
 ### Running the Bot
 
-1. Clone this repository or copy the code files into a project folder.
-2. Replace `"YOUR_BOT_TOKEN"` in the `bot.run()` line with your Discord bot token.
-3. Ensure that the `이미지/` folder contains the educational roadmap images for each department.
-4. Run the bot using the following command:
-   ```bash
-   python bot.py
+1. **Create a Bot in Discord Developer Portal**
+   - Visit the [Discord Developer Portal](https://discord.com/developers/applications).
+   - Click on "New Application" and provide a name for your bot.
+   - Navigate to the "Bot" tab and click "Add Bot" to create a bot user.
+
+2. **Get the Bot Token**
+   - Copy the bot token from the "Bot" tab.
+   - Replace `"YOUR_BOT_TOKEN"` in the `bot.run()` line of the code with the copied token.
+
+3. **Set Bot Permissions**
+   - Go to the "OAuth2" tab in the Discord Developer Portal.
+   - Select "URL Generator" and check the following permissions under the "Scopes" and "Bot Permissions" sections:
+     - **Scopes**: `bot`
+     - **Bot Permissions**: `Send Messages`, `Embed Links`, `Read Message History`, and any other permissions your bot needs.
+   - Copy the generated OAuth2 URL.
+
+4. **Invite the Bot to Your Server**
+   - Open the copied OAuth2 URL in your web browser.
+   - Select your Discord server and invite the bot.
+
+5. **Run the Bot**
+   - Open a terminal and navigate to the folder containing your bot's code.
+   - Run the following command to start the bot:
+     ```bash
+     python bot.py
+     ```
+   - The bot should now be online and ready to use.
+
+---
+
+Now your bot should be set up and running on your Discord server. If you encounter any issues, feel free to ask for help!
 
 ## License
 
