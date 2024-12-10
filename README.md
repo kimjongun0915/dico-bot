@@ -37,6 +37,7 @@ Allows users to explore colleges and their respective departments. Users can als
 
 ```python
 @bot.slash_command(name="도움말",description="봇의 명령어를 알려준다")
+```
 
 #### 설명
 - 이 명령어는 봇에 등록된 모든 명령어를 보여줍니다.
