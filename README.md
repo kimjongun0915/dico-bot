@@ -43,6 +43,33 @@ Allows users to explore colleges and their respective departments. Users can als
 - 이 명령어는 봇에 등록된 모든 명령어를 보여줍니다.
 - 명령어의 이름과 그 설명이 포함된 임베드 메시지를 출력합니다.
 
+### 명령어: `/등록금`
+
+```python
+@bot.slash_command(name="등록금", description="학과별 등록금을 알려줍니다.")
+```
+
+#### 설명
+-학과별 등록금 정보를 페이지별로 보여줍니다.
+-"이전", "다음" 버튼으로 페이지를 이동할 수 있습니다.
+-버튼 정의 및 콜백 연결
+  -`next_page_callback`: 다음 페이지를 표시
+  -`prev_page_callback`: 이전 페이지를 표시
+-페이지 순환 로직: 페이지 번호를 배열 길이로 모듈러 연산하여 순환
+-버튼 뷰: `View`객체를 사용해 버튼을 생성하고 메시지에 추가
+
+### 명령어: `/캠퍼스지도`
+
+### 명령어: `/학점비율`
+
+### 명령어: `/분과정보`
+
+### 명령어: `/공지사항`
+
+### 명령어: `/단과대학`
+
+---
+
 ### Running the Bot
 
 1. **Create a Bot in Discord Developer Portal**
