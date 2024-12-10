@@ -29,6 +29,19 @@ Allows users to explore colleges and their respective departments. Users can als
 
 ---
 
+## 코드 설명 및 구현 화면
+
+---
+
+### 명령어: `/도움말`
+
+```python
+@bot.slash_command(name="도움말",description="봇의 명령어를 알려준다")
+
+#### 설명
+- 이 명령어는 봇에 등록된 모든 명령어를 보여줍니다.
+- 명령어의 이름과 그 설명이 포함된 임베드 메시지를 출력합니다.
+
 ### Running the Bot
 
 1. **Create a Bot in Discord Developer Portal**
