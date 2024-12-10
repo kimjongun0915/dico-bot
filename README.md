@@ -67,10 +67,35 @@ Now your bot should be set up and running on your Discord server. If you encount
 
 ## 실행 요건
 
-## Python 3.8 이상
-##필수 라이브러리 설피 
-pip install nextcord aiohttp beautifulsoup4 requests
-##프로젝트 디렉토리에 이미지 폴더를 생성하고, 학과별 교육연계도 이미지와 등록금 이미지를 해당 폴더에 추가합니다.
+1. **Python 3.8 이상**
+   - Python 3.8 또는 그 이상의 버전이 필요합니다.
+   - [Python 공식 웹사이트](https://www.python.org/)에서 다운로드하여 설치할 수 있습니다.
+
+2. **필수 라이브러리 설치**
+   - 다음 명령어를 실행하여 필요한 Python 라이브러리를 설치하세요:
+     ```bash
+     pip install nextcord aiohttp beautifulsoup4 requests
+     ```
+   - 각 라이브러리의 역할:
+     - `nextcord`: 디스코드 API와 상호작용하기 위한 라이브러리.
+     - `aiohttp`: 비동기 HTTP 요청을 처리하기 위한 라이브러리.
+     - `beautifulsoup4`: HTML 파싱 및 크롤링에 사용.
+     - `requests`: HTTP 요청을 처리하기 위한 라이브러리.
+
+3. **이미지 폴더 설정**
+   - 프로젝트 디렉토리에 `이미지/` 폴더를 생성합니다.
+   - 해당 폴더에 **학과별 교육 연계도 이미지**와 **등록금 이미지**를 추가합니다.
+     - 예시:
+       ```plaintext
+       프로젝트/
+       ├── seoultech.py
+       ├── 이미지/
+       │   ├── 등록금1.png
+       │   ├── 등록금2.png
+       │   ├── 컴퓨터공학과.png
+       │   └── 기계시스템디자인공학과.jpg
+       ```
+.
 
 ---
 
