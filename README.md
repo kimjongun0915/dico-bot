@@ -81,7 +81,7 @@ Now your bot should be set up and running on your Discord server. If you encount
      - `aiohttp`: 비동기 HTTP 요청을 처리하기 위한 라이브러리.
      - `beautifulsoup4`: HTML 파싱 및 크롤링에 사용.
      - `requests`: HTTP 요청을 처리하기 위한 라이브러리.
-
+     - `os`: 파일 및 디렉토리 경로 관리를 하기 위한 라이브러리.
 3. **이미지 폴더 설정**
    - 프로젝트 디렉토리에 `이미지/` 폴더를 생성합니다.
    - 해당 폴더에 **학과별 교육 연계도 이미지**와 **등록금 이미지**를 추가합니다.
