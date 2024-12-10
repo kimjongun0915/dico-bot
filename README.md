@@ -1,31 +1,31 @@
-# Discord Bot for University Information
+# 대학교 정보 제공 디스코드 
 
-This is a Discord bot designed to provide useful information about a university, including tuition details, campus maps, department details, clubs, and notices. It also includes a feature to display department-specific educational roadmaps.
+이 디스코드 봇은 대학교와 관련된 다양한 정보를 제공하는 봇입니다. 학비 정보, 캠퍼스 지도, 학과 정보, 동아리, 공지사항 등을 포함하며, 학과별 교육 연계도를 이미지로 보여주는 기능도 포함되어 있습니다.
 
 ---
 
-## Features
+## 주요기능
 
-### Help Command (`/도움말`)
-Displays all available commands and their descriptions.
+### 도움말 명령 (`/도움말`)
+봇에서 사용할 수 있는 모든 명령어와 그 설명을 보여줍니다.
 
-### Tuition Details (`/등록금`)
-Provides tuition details for different departments with paginated images.
+### 등록금 정보 (`/등록금`)
+학과별 등록금 정보를 페이지 형식으로 제공합니다.
 
-### Campus Map (`/캠퍼스지도`)
-Shows a map of the university campus.
+### 캠퍼스 지도 (`/캠퍼스지도`)
+대학교 캠퍼스 지도를 이미지로 보여줍니다.
 
-### Grade Ratio (`/학점비율`)
-Displays the grade distribution ratios for the 2025 academic year.
+### 학점 비율 (`/학점비율`)
+2025학년도 학점 분포 비율을 보여줍니다.
 
-### Clubs Information (`/분과정보`)
-Provides information about various clubs categorized by their type.
+### 동아리 정보 (`/분과정보`)
+동아리를 종류별로 분류하여 정보를 제공합니다.
 
-### University Notices (`/공지사항`)
-Fetches and displays the latest notices from the university's official website.
+### 공지사항 (`/공지사항`)
+대학교 공식 웹사이트에서 최신 공지사항을 가져와 보여줍니다.
 
-### College and Department Information (`/단과대학`)
-Allows users to explore colleges and their respective departments. Users can also view department-specific educational roadmaps as images.
+### 단과대학 및 학과 정보 (`/단과대학`)
+단과대학과 해당 학과 정보를 탐색할 수 있으며, 학과별 교육 연계도 이미지를 확인할 수 있습니다.
 
 ---
 
@@ -179,9 +179,9 @@ Allows users to explore colleges and their respective departments. Users can als
 
 ---
 
-### Running the Bot
+### 봇 실행 방법
 
-1. **Create a Bot in Discord Developer Portal**
+1. **Discord Developer Portal에서 봇 생성**
    - Visit the [Discord Developer Portal](https://discord.com/developers/applications).
    - Click on "New Application" and provide a name for your bot.
    - Navigate to the "Bot" tab and click "Add Bot" to create a bot user.
