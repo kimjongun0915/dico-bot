@@ -58,8 +58,8 @@ Allows users to explore colleges and their respective departments. Users can als
 #### 설명
 - 학과별 등록금 정보를 페이지별로 보여줍니다.
 ![image](구현화면/등록금1.png)
-![image](구현화면/등록금2.png)
 - "이전", "다음" 버튼으로 페이지를 이동할 수 있습니다.
+![image](구현화면/등록금2.png)
 - 버튼 정의 및 콜백 연결
    - `next_page_callback`: 다음 페이지를 표시
    - `prev_page_callback`: 이전 페이지를 표시
