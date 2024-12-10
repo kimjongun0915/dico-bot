@@ -250,6 +250,12 @@
 
 ---
 
+## 주의사항
+
+절대 다른사람에게 자신의 토큰넘버를 알려주면 안됩니다.
+
+---
+
 ## License
 
 This project is licensed under the MIT License
