@@ -29,6 +29,11 @@
 
 ---
 
+##실행 영상
+![video label]("https://youtu.be/lMA0QS28qN0")
+
+---
+
 ## 코드 설명 및 구현 화면
 
 ---
