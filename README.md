@@ -63,6 +63,17 @@ Allows users to explore colleges and their respective departments. Users can als
 
 Now your bot should be set up and running on your Discord server. If you encounter any issues, feel free to ask for help!
 
+---
+
+## 실행 요건
+
+## Python 3.8 이상
+##필수 라이브러리 설피 
+pip install nextcord aiohttp beautifulsoup4 requests
+##프로젝트 디렉토리에 이미지 폴더를 생성하고, 학과별 교육연계도 이미지와 등록금 이미지를 해당 폴더에 추가합니다.
+
+---
+
 ## License
 
 This project is licensed under the MIT License
