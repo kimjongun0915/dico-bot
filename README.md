@@ -29,7 +29,7 @@
 
 ---
 
-##실행 영상
+## 실행 영상
 ![video label]("https://youtu.be/lMA0QS28qN0")
 
 ---
