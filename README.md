@@ -37,3 +37,7 @@ Allows users to explore colleges and their respective departments. Users can als
 - Required Python libraries installed:
   ```bash
   pip install nextcord aiohttp beautifulsoup4 requests
+
+## License
+
+This project is licensed under the MIT License
