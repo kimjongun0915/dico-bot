@@ -29,6 +29,31 @@ Allows users to explore colleges and their respective departments. Users can als
 
 ---
 
+# API Documentation
+
+This document provides an explanation of the available functions that can be used in exceptional scenarios within the game.
+
+---
+
+## Tips
+- Requires the execution of all calls in **JS ES6** through `CodeMos`.
+- Mismanagement of non-functional repairs can cause issues.
+- Finding a bug might reveal an Easter Egg.
+
+---
+
+## Main Loop
+In **CodeMos**, the main loop should always be registered under `newInterval`.  
+Calling `setInterval` without registering under `newInterval` can lead to invocation errors. The interval can be set as needed.
+
+### Correct Example:
+```javascript
+newInterval = setInterval(() => {
+    // Main loop logic here
+}, 1); // 1ms loop
+
+---
+
 ## Setup Instructions
 
 ### Prerequisites
