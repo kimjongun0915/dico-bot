@@ -32,11 +32,47 @@ Allows users to explore colleges and their respective departments. Users can als
 ## Setup Instructions
 
 ### Prerequisites
-- Python 3.8 or later installed
-- Discord Bot token
-- Required Python libraries installed:
-  ```bash
-  pip install nextcord aiohttp beautifulsoup4 requests
+
+1. **Python 3.8 or later**
+   - Ensure that Python 3.8 or a later version is installed on your system.
+   - Download Python from the [official Python website](https://www.python.org/).
+
+2. **Discord Bot Token**
+   - Create a bot in the [Discord Developer Portal](https://discord.com/developers/applications).
+   - Copy the bot token and replace `"YOUR_BOT_TOKEN"` in the `bot.run()` line of the code.
+
+3. **Required Python Libraries**
+   - Install the necessary Python libraries using the following command:
+     ```bash
+     pip install nextcord aiohttp beautifulsoup4 requests
+     ```
+   - **Library Descriptions**:
+     - `nextcord`: Library for interacting with Discord's API.
+     - `aiohttp`: Handles asynchronous HTTP requests.
+     - `beautifulsoup4`: Parses HTML for web scraping.
+     - `requests`: Makes HTTP requests.
+
+4. **Educational Roadmap Images**
+   - Prepare images for department-specific educational roadmaps.
+   - Save the images in the `이미지/` directory and map them in the `college_data` dictionary.
+     - Example:
+       ```plaintext
+       이미지/
+       ├── 기계시스템디자인공학과.jpg
+       ├── 컴퓨터공학과.png
+       └── ...
+       ```
+
+---
+
+### Running the Bot
+
+1. Clone this repository or copy the code files into a project folder.
+2. Replace `"YOUR_BOT_TOKEN"` in the `bot.run()` line with your Discord bot token.
+3. Ensure that the `이미지/` folder contains the educational roadmap images for each department.
+4. Run the bot using the following command:
+   ```bash
+   python bot.py
 
 ## License
 
