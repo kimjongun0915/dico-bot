@@ -30,7 +30,7 @@
 ---
 
 ## 실행 영상
-![video label]("https://youtu.be/lMA0QS28qN0")
+[![video label](https://img.youtube.com/vi/lMA0QS28qN0/0.jpg)](https://youtu.be/lMA0QS28qN0)
 
 ---
 
