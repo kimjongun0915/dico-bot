@@ -88,10 +88,10 @@ Allows users to explore colleges and their respective departments. Users can als
    - Select your Discord server and invite the bot.
 
 5. **Run the Bot**
-   - Open a terminal and navigate to the folder containing your bot's code.
+   - Open a terminal and navigate to the folder containing `seoultech.py`.
    - Run the following command to start the bot:
      ```bash
-     python bot.py
+     python seoultech.py
      ```
    - The bot should now be online and ready to use.
 
